@@ -4,7 +4,7 @@ namespace IDCI\Bundle\KeycloakSecurityBundle\EventListener;
 
 use League\OAuth2\Client\Provider\Exception\IdentityProviderException;
 use Symfony\Component\HttpFoundation\RedirectResponse;
- Symfony\Component\HttpKernel\Event\ExceptionEvent;
+use Symfony\Component\HttpKernel\Event\ExceptionEvent;
 use Symfony\Component\Routing\Generator\UrlGeneratorInterface;
 
 class ExceptionListener
